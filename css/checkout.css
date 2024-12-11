@@ -1,0 +1,187 @@
+.cart-title{
+    margin-bottom: 55px;
+}
+.checkout-title {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-title .step-number {
+    padding: 2px 8px;
+    border-radius: 50%;
+    margin: 0 9px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(210, 110, 75);
+}
+
+.checkout-title .step-title {
+    color: rgb(204, 204, 204);
+    font-size: 25px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.step-title:hover{
+    color: #111;
+}
+
+.checkout-title .step-title-checkout{
+    color: #111;
+    font-size: 25px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.coupon {
+    padding-bottom: 8px;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.showcoupon {
+    color: rgb(51, 72, 98);
+    font-size: 16px;
+    font-weight: 400;
+}
+.showcoupon:hover {
+    color: rgb(17, 17, 17);
+}
+
+.billing h3 {
+    padding-top: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    border-top: 2px solid rgb(221, 221, 221);
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    font-size: 15.52px;
+    font-weight: 400;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border-width: 0.8px;
+    border-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+.input-box .box-item{
+    width: calc(50% - 5px);
+    margin-left: 2.5px;
+}
+
+.dif-address{
+    margin-bottom: 9px;
+}
+
+.dif-address input {
+    margin-left: 4px;
+    margin-right: 8px;
+    color: rgb(34, 34, 34);
+    font-size: 15.52px;
+    font-weight: 400;
+}
+
+.note {
+    border: 0.8px solid rgb(221, 221, 221);
+    margin-bottom: 16px;
+    padding-top: 11px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0;
+    font-size: 15.52px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+/* ------------------------------------------- */
+
+.order-review {
+    padding: 30px;
+    margin-top: 32px;
+    border: 1px solid rgb(68, 96, 132);
+    background-color: #fff;
+    font-family: Lato, sans-serif;
+}
+
+.your-order h3{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+}
+
+.product_subtotal {
+    padding-top: 7.2px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(119, 119, 119);
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.merchandise-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.96px;
+    border-bottom: 1px solid #ddd;
+    padding: 7.2px 0;
+    color: rgb(102, 102, 102);
+}
+
+.shipping-section p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12.96px;
+    padding: 7.2px 0;
+    color: rgb(119, 119, 119);
+}
+
+.agree-conditions input{
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.agree-conditions span {
+    color: rgb(17, 17, 17);
+    font-size: 14.4px;
+    font-weight: 600;
+}
+
+.agree-conditions a{
+    color: rgb(51, 72, 98);
+    font-size: 14.4px;
+    font-weight: 600;
+}
+
+.checkout-btn {
+    width: 100%;
+    background-color: rgb(210, 110, 75);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    font-size: 15.52px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.privacy-policy p{
+    font-size: 13.6px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}

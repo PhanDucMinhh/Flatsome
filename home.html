@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/categories.css">
+</head>
+
+<body>
+    <!-- begin header -->
+    <header>
+        <div class="top_header">
+            <div class="container">
+                <div class="top_hd_wrap">
+                    <div class="header_content">
+                        <strong class="hd_slogan">Add anything here or just remove it....</strong>
+                    </div>
+                    <div class="top_hd_menu">
+                        <ul class="top_menu_list">
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">About</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Our Stores</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Blog</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Contact</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">FAQ</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Newsletter</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Languages</a>
+                            </li>
+                            <li class="top_menu_item">
+                                <a href="" class="top_menu_link" style="text-decoration: none;">Wishlist</a>
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top_hd_menu_icon">
+                        <ul class="top_menu_icon">
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Follow on Facebook" aria-label="Follow on Facebook">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Follow on Instagram"
+                                    aria-label="Follow on Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Follow on X" aria-label="Follow on X">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Follow on Twitter" aria-label="Follow on Twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Follow on Threads" aria-label="Follow on Threads">
+                                    <i class="fa-brands fa-threads"></i>
+                                </a>
+                            </li>
+                            <li class="menu_icon">
+                                <a href="" class="icon_link" title="Send us an email" aria-label="Send us an email">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container-u">
+                <div class="row">
+                    <div class="hd_wrap">
+                        <div class="hd_logo">
+                            <a href="" class="logo" title="Flatsome - Best selling WooCommerce theme">
+                                <img width="200" height="42" src="./images/logo.png" alt="Flatsome">
+                            </a>
+                        </div>
+                        <div class="hd_menu">
+                            <ul class="menu_list">
+                                <div class="search-container">
+                                    <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+                                    <button class="search-button" onclick="toggleSearch()">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+
+                                <script>
+                                    function toggleSearch() {
+                                        var searchInput = document.getElementById('searchInput');
+                                        if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+                                            searchInput.style.display = 'block';
+                                            searchInput.focus();
+                                        } else {
+                                            searchInput.style.display = 'none';
+                                        }
+                                    }
+                                </script>
+                                <li class="menu_item">
+                                    <a href="" class="menu-link" style="text-decoration: none;">Demos
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="./categories.html" class="menu-link"
+                                        style="text-decoration: none;">Features
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu-link" style="text-decoration: none;">Shop
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu-link" style="text-decoration: none;">Pages
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link" style="text-decoration: none;">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link" style="text-decoration: none;">Elements</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right_hd_menu">
+                            <ul class="right_menu_list">
+                                <li class="right_menu_item">
+                                    <a href="" class="right_item" title="Login">Login</a>
+                                </li>
+                                <li class="right_menu_divide"></li>
+                                <li class="right_menu_item_icon">
+                                    <a href="./cart.html" class="right_item" title="Cart">
+                                        <span class="cart_price"> Cart / $0,00</span>
+                                    </a>
+                                    <a href="./cart.html"><span class="cart_icon">
+                                        0
+                                    </span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- end header -->
+    <!-- begin wrapper -->
+    <div class="sale">
+        <div class="border-sale">
+            <div class="container">
+                <div class="row">
+                    <div class="sale-discount">
+                        <p>Up to</p>
+                        <p style=" font-size: 280%;">50%</p>
+                        <p>off</p>
+                    </div>
+                    <div class="sale-wrap">
+                        <h1>SALE</h1>
+                        <p>Summer Sale has Started</p>
+                        <ul>
+                            <li>0 hours</li>
+                            <li>0 hours</li>
+                            <li>0 hours</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="btn-sale">shop men</div>
+                            </li>
+                            <li>
+                                <div class="btn-sale">shop women</div>
+                            </li>
+                            <li>
+                                <div class="btn-sale">shop all</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="about-item item-us">
+                        <div class="item-wrap">
+                            <h1>about us</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-item item-blog">
+                        <div class="item-wrap">
+                            <h1>our blog</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-item item-seletter">
+                        <div class="item-wrap">
+                            <h1>new seletter</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container lastes-product">
+            <h3 class="line-small">
+                <b></b>
+                <span class="line-small-text">lastes products on sale</span>
+                <b></b>
+            </h3>
+        </div>
+        <div class="product-sale">
+            <div class="container">
+                <div class="row prOduct_on" id="productList">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container lastes-product">
+        <h3 class="line-small">
+            <b></b>
+            <span class="line-small-text">browse our categories</span>
+            <b></b>
+        </h3>
+    </div>
+    <div class="container">
+        <div class="category-menu">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href=""><img src="./images/p5.jpg" alt="" class="img-category"></a>
+                    <div class="category-item">
+                        clothing
+                        <div class="12product">12 products</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href=""><img src="./images/p6.jpeg" alt="" class="img-category"></a>
+                    <div class="category-item">
+                        women
+                        <div class="12product">18 products</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href=""><img src="./images/p19.jpg" alt="" class="img-category"></a>
+                    <div class="category-item">
+                        booking
+                        <div class="12product">6 products</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href=""><img src="./images/co1.jpeg" alt="" class="img-category"></a>
+                    <div class="category-item">
+                        men
+                        <div class="12product">9 products</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container lastes-product">
+        <h3 class="line-small">
+            <b></b>
+            <span class="line-small-text">flolow us on instagram</span>
+            <b></b>
+        </h3>
+    </div>
+    <div class="intagram">
+        <div class="container">
+            <div class="row row-ins">
+                <div class="col-md-3">
+                    <img src="./images/p7.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p8.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p9.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p10.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p11.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p12.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p13.jpg" alt="" class="img-fllow">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/p14.jpg" alt="" class="img-fllow">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="baner-ins">
+        <a href=""><img src="./images/baner-1.jpg" alt="" class="img-ins"></a>
+        <div class="text-ins">
+            <h1>don't miss a sale</h1>
+            <h2>sign up for our newseletter</h2>
+            <div class="btn-ins">
+                <div class="col-md-6">
+                    <form action="" class="ft-signup">
+                        <div><input type="text"
+                                style="color: #777777;border: 1px solid; border-radius: 20px;text-align: center;"
+                                placeholder="your email (required)"></div>
+                </div>
+                <div class="col-md-6">
+                    <button class="ins-boder">sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="container lastes-product">
+            <h3 class="line-small">
+                <b></b>
+                <span class="line-small-text">lastes news</span>
+                <b></b>
+            </h3>
+        </div>
+        <div class="container">
+            <div class="lates">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href=""> <img src="./images/p20.jpg" alt="" class="img-lates"></a>
+                        <h1 class="text-browse">welcome to flatsome</h1>
+                        <p class="text-span">welcome to wordpress .thí í your first post edit or delete it , then start
+                            blogging,..</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=""> <img src="./images/p21.jpg" alt="" class="img-lates"></a>
+                        <h1 class="text-browse">just another post with galelly</h1>
+                        <p class="text-span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod tincidunt.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href=""> <img src="./images/p22.jpg" alt="" class="img-lates"></a>
+                        <h1 class="text-browse">a simple blog post</h1>
+                        <p class="text-span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod tincidunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-main">
+            <div class="column">
+                <h2> LATEST</h2>
+                <div class="line-top"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/relaprod4.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> On1 Jersey UNIF-2</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$39,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p24.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> osaka entry tee</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$29,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p25.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> on star canvas hi converse</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$29,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p27.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> fluro big pullove designer remix</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$42,00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2> best selling</h2>
+                <div class="line-top"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p24.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> osaka entry tee</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$29,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p28.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5>daisy bag sonia by sonia kiryel</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$2,999,000</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/relaprod4.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> On1 Jersey UNIF-2</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$39,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p29.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5>happy ninja</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$18,00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2> featured</h2>
+                <div class="line-top"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p24.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> osaka entry tee</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$29,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p25.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> on star canvas hi converse</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$29,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p27.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> fluro big pullove designer remix</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$42,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/prod1.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> varanie cn tee hifiger denim</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$19,00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2> top rated product</h2>
+                <div class="line-top"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p27.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> fluro big pullove designer remix</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$42,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p29.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5>happy ninja</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$18,00</div>
+                    </div>
+                </div>
+                <div class="line-footer"></div>
+                <div class="productlist">
+                    <div class="product">
+                        <img src="./images/p5.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h5> varanie cn tee hifiger denim</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                        <div class="price">$19,00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end wrapper  -->
+    
+    <!-- begin footer -->
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="ft-title">About us</h2>
+                        <div class="line"></div>
+                        <p class="ft-desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                        <ul class="ft-social">
+                            <li>
+                                <a href="" class="ft-link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="ft-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="ft-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="ft-link">
+                                    <i class="fa-sharp fa-regular fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="ft-link">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="ft-title">Latest News </h2>
+                        <div class="line"></div>
+                        <ul class="menu-latest">
+
+                            <li class="menu-item">
+                                <a href="" class="menu-link">
+                                    <div class="wrap-news">
+                                        <div class="news-time">
+                                            <span class="time-date">19</span>
+                                            <span class="time-month">nov</span>
+                                        </div>
+                                        <div class="news-title">Welcome to flatsome</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="menu-link">
+                                    <div class="wrap-news">
+                                        <div class="news-time">
+                                            <span class="time-date">13</span>
+                                            <span class="time-month">oct</span>
+                                        </div>
+                                        <div class="news-title">Just another post with a gallery</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="menu-link">
+                                    <div class="wrap-news">
+                                        <div class="news-time">
+                                            <span class="time-date">13</span>
+                                            <span class="time-month">oct</span>
+                                        </div>
+                                        <div class="news-title">A simple block post</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="menu-link">
+                                    <div class="wrap-news">
+                                        <div class="news-time">
+                                            <span class="time-date">01</span>
+                                            <span class="time-month">jan</span>
+                                        </div>
+                                        <div class="news-title">A video block post</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="ft-title">Tags</h2>
+                        <div class="line"></div>
+                        <div class="tag-menu">
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">bag</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">classic</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">converse</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">diesel</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">fit</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">green</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">jack and
+                                jones</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">jack and
+                                jone-2</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">jeans</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">jumper</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">leather</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">lee</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">levis</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">man</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">nypd</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">party</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">pink</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">run</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">shoe</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">stars</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">sweden</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">t-shirt</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">van</a>
+                            <a href="" class="tag-small" style="font-size: 10.5pt;color: rgb(241, 241, 241);"
+                                aria-label="bag (5 products)">white</a>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="ft-title">Signup for Newsletter</h2>
+                        <div class="line"></div>
+                        <div class="content-p">
+                            <p>Sign up to get news about Flatsome & WooCommerce. We don't spam!</p>
+                        </div>
+                        <form action="" class="ft-signup">
+                            <div><input type="text" style="color: #777777;border: 1px solid; border-radius: 5px ;"
+                                    placeholder="Your Email (required)"></div>
+                            <div class="btn" style="padding-left: 0;"><button
+                                    style="border: none;border-radius: 5px;background-color: #446084;color:white;text-transform: uppercase; ">sign
+                                    up</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="absolute-footer ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-left">
+                                <div class="menu-secondary">
+                                    <ul id="menu-secondary-1" class="r-ft-menu">
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="">About</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="">out story</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="">blog</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="">contact</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="">faq</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="coppy-right">
+                                    Copyright 2024 ©
+                                    <strong>flatsome theme</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pay-item">
+                                <i class="fa-brands fa-cc-visa"></i>
+                                <i class="fa-brands fa-cc-paypal"></i>
+                                <i class="fa-brands fa-cc-stripe"></i>
+                                <i class="fa-brands fa-cc-mastercard"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+<script src="./js/data.js"></script>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,244 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* begin header */
+.top_header {
+    background-color: #446084;
+    width: 1527px;
+    height: 30.475px;
+}
+
+.top_hd_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30.475px;
+    width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 219.6px;
+    margin-right: 219.6px;
+}
+
+.top_hd_wrap .header_content {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_content {
+    margin-right: 3.925px;
+}
+
+.top_hd_menu ul {
+    list-style: none;
+}
+
+.top_hd_menu_icon ul {
+    list-style: none;
+}
+
+.top_hd_menu .top_menu_list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.top_hd_menu .top_menu_link {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 12.8px;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+
+.top_hd_menu .top_menu_item {
+    margin: 0 11.2px;
+}
+
+.top_menu_list :hover {
+    color: #f1f1f1;
+}
+
+.top_hd_menu_icon .top_menu_icon {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.top_hd_menu_icon .menu_icon .icon_link {
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 12.8px;
+    font-family: sans-serif;
+}
+.top_menu_icon :hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.fa-solid {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 12.8px;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hd_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    padding: 0 15px;
+    margin-left: 219.6px;
+    margin-right: 219.6px;
+    margin-top: 18px;
+}
+
+.hd_logo {
+    width: 200px;
+    max-height: 90px;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.logo {
+    color: rgb(68, 96, 132);
+    display: block;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hd_menu ul {
+    list-style: none;
+}
+
+.menu_icon_search {
+    display: block;
+    margin-right: 7px;
+    color: rgb(119, 119, 119);
+}
+
+.hd_menu .menu_list {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    width: 563.8px;
+    height: 40.475px;
+    justify-content: flex-start;
+}
+
+.hd_wrap .hd_menu {
+    text-transform: uppercase;
+    font-size: 12.8px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.hd_menu .menu_item {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.hd_menu .menu-link {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hd_menu .icon_search {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}   
+
+.right_hd_menu ul {
+    list-style: none;
+}
+
+.right_hd_menu .right_menu_list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right_hd_menu .right_menu_item {
+    margin-right: 7px;
+}
+
+.right_menu_item_icon {
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 12.8px;
+    width: 117px;
+    height: 55px;
+}
+
+
+.hd_menu .menu-link {
+    color: rgba(102, 102, 102, 0.85);
+}
+
+.hd_wrap .right_hd_menu {
+    text-transform: uppercase;
+    font-size: 12.8px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.right_hd_menu .right_item {
+    color: rgba(102, 102, 102, 0.85);
+}
+
+.cart_icon {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(68, 96, 132); 
+    border-radius: 5px;
+    margin-left: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_icon::before {
+    content: '';
+    position: absolute;
+    top: -9px; 
+    left: 3.5px;
+    width: 15px;
+    height: 10px;
+    border-top: 2px solid rgb(68, 96, 132); 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+/* end header */
